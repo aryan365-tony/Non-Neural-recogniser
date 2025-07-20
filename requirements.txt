@@ -1,0 +1,11 @@
+cupy
+cudf
+cuml
+dask-cuda
+rmm
+torch
+torchvision
+opencv-python
+scikit-learn
+scikit-image
+matplotlib
