@@ -50,16 +50,16 @@ handwriting_gpu_ocr/
 ### 4. **GPU Training**
 - Converts all features to `cudf.DataFrame` format.
 - Trains 3 different **cuML models**:
-  - `SVC` (RBF Kernel)
-  - `RandomForestClassifier`
-  - `KNeighborsClassifier`
+  - SVC (RBF Kernel)
+  - RandomForestClassifier
+  - KNeighborsClassifier
 
 ### 5. **Ensemble Voting**
 - Combines model predictions using **soft voting** (averaging probabilities).
 - Final prediction is the class with the highest average probability.
 
 ### 6. **Inference**
-- Supports fast inference on single images via `recognize_image()` function.
+- Supports fast inference on single images via recognize_image() function.
 
 
 
